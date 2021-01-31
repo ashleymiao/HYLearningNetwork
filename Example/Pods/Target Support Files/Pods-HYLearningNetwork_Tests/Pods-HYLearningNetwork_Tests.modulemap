@@ -1,0 +1,6 @@
+framework module Pods_HYLearningNetwork_Tests {
+  umbrella header "Pods-HYLearningNetwork_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
