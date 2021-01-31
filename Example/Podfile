@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HYLearningNetwork_Example' do
+  pod 'HYLearningNetwork', :path => '../'
+
+  target 'HYLearningNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
