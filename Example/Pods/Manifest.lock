@@ -1,15 +1,36 @@
 PODS:
-  - HYLearningNetwork (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - HYLearningNetwork (0.1.1):
+    - AFNetworking
 
 DEPENDENCIES:
   - HYLearningNetwork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   HYLearningNetwork:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYLearningNetwork: cbcab5a0d36b5b1c000cd42ad6a1539915537a65
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  HYLearningNetwork: aa573a6a0e0ae9ac5c6299eb835844eea8b34081
 
 PODFILE CHECKSUM: cff928da54064782e2455c2e7702d4fc4b10b92c
 

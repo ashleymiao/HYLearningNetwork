@@ -7,6 +7,7 @@
 //
 
 #import "HYNTViewController.h"
+@import HYLearningNetwork;
 
 @interface HYNTViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [HYNTNetworkingManager sendRequest];
 }
 
 - (void)didReceiveMemoryWarning
